@@ -33,13 +33,14 @@
 }
 
 .nav-logo {
-    font-size: 1.5rem;
-    font-weight: 800;
-    background: var(--text-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-links {
